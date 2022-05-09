@@ -1,0 +1,11 @@
+.navbar{
+    padding: 0;
+}
+.navbar .backgrond-nav{
+    background-color: #001E6C;
+    width: 100%;
+    padding: 20px 10px;
+}
+.navbar .logout{
+    cursor: pointer;
+}

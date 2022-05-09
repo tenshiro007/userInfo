@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+  }
+  .register .body-section {
+    min-height: 89vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+  }
+  .register .container-m {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0,0, 0.3);
+  }
+  .register .form {
+    padding: 10px 40px;
+  }
+  .register .form h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .register .form-group-m {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 500px;
+  }
+  .register .form-group-m label {
+      font-size: 18px;
+  }
+  .register .form-group-m input {
+    display: block;
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+  }
+  .register .form-group-m  input:focus{
+      outline: none;
+  }
+  
+  .register .form-group-m2 {
+    display: flex;
+    color: rgb(142, 142, 142);
+    flex-direction: row;
+    margin: 5px 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  .register .form-group-m2 input {
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+    background-color: #eee;
+  }
+  .register .form-group-m2 label{
+      margin-left: 10px;
+  }  
+  .register .form button{
+      background-color: #3498db;
+      cursor: pointer;
+      width: 100%;
+      border: 2px solid #3498db;
+      display: block;
+      color: #ffff;
+      font-size: 16px;
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 5px;;
+  }
+  .register .form p{
+    text-align: right;
+  }
