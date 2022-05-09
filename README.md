@@ -68,10 +68,18 @@ Go to the project directory
 Setup Environment
 ```bash
   cb backend
+  create .env
   add value to .env
+  
+      DATABASE=
+      PORT=8080
+      SECRET_KEY=
 
   cb fontend
+  create .env
   add value to .env
+  
+      REACT_APP_API=http://localhost:8080
 ```
 
 Start the server
@@ -105,7 +113,13 @@ Go to the project directory
 ```
 Setup Environment
 ```bash
+  create .env
   add value to .env
+  
+      REACT_APP_API=http://localhost:8080
+      DATABASE=
+      PORT=8080
+      SECRET_KEY=
 ```
 Run cmd 
 ```bash
