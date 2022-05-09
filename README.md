@@ -22,66 +22,6 @@
 
 **Server:** Node, Express
 
-
-## Run Locally
-
-### Option 1: Start with docker pull
-
-Pull images
-```bash
-  docker pull tenshiro/react-iig:latest
-  docker pull tenshiro/nodejs-iig:latest
-```
-Run container
-```bash
-  docker run -d -p 8080:8080 --name nodejs tenshiro/nodejs-iig:latest
-  docker run -d -p 3000:3000 --name react tenshiro/react-iig:latest
-```
-Open Browser
-```bash
-  http://localhost:3000
-```
-
-### Option 2: Start project from root folder 
-Clone the project
-
-```bash
-  git clone https://github.com/tenshiro007/userInfo
-```
-Go to the project directory
-```bash
-  cd userInfo
-```
-
-Setup Environment
-```bash
-  cb backend
-  add value to .env
-
-  cb fontend
-  add value to .env
-```
-
-Start the server
-
-```bash
-  cd backend
-  npm install
-  npm run start
-```
-
-Start the client
-```bash
-  cd fontend
-  npm install -g npm@8.3.0
-  npm run start
-```
-Open Browser
-```bash
-  http://localhost:3000
-```
-
-
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
