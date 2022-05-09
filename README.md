@@ -1,4 +1,9 @@
 # User Info
+
+![login](https://user-images.githubusercontent.com/85775989/167429496-d8bb6144-8208-483d-8001-03d459016b09.jpg)
+![register](https://user-images.githubusercontent.com/85775989/167429512-6d5dc4e4-7742-4cbb-8944-d1d2ad208f69.jpg)
+![profile](https://user-images.githubusercontent.com/85775989/167429506-8fe0af5a-6f03-4738-bdae-40fd64457056.jpg)
+![profile-edit](https://user-images.githubusercontent.com/85775989/167429510-8717bba9-3aef-403c-9cd8-5dc3ba25e863.jpg)
  มีหน้า screen ดังต่อไปนี้
 1. หน้า Login แสดงฟอร์มเข้าสู่ระบบ
 2. หน้า Register แสดงหน้าฟอร์มสมัครสมาชิก มีการตรวจสอบดังต่อไปนี้
@@ -176,7 +181,7 @@ Open Browser
 
 #### Login user
 The request body should to be in JSON format 
-```http
+```bash
   POST /login
   {
   "username": "helloworld",
@@ -189,7 +194,7 @@ The request body should to be in JSON format
 
 #### Register user
 The request body should to be form-data
-```http
+```bash
   POST /Register
   
   (key,type,value)
@@ -205,7 +210,7 @@ The request body should to be form-data
 
 #### Get user
 Add token to Headers
-```http
+```bash
   GET /
   x-access-token=token
 
@@ -215,7 +220,7 @@ Add token to Headers
 #### Update user
 Add token to Headers.
 The request body should to be form-data
-```http
+```bash
   PUT /update
 
   x-access-token=token
@@ -229,9 +234,4 @@ The request body should to be form-data
 
 ```
 
-
-![login](https://user-images.githubusercontent.com/85775989/167429496-d8bb6144-8208-483d-8001-03d459016b09.jpg)
-![register](https://user-images.githubusercontent.com/85775989/167429512-6d5dc4e4-7742-4cbb-8944-d1d2ad208f69.jpg)
-![profile](https://user-images.githubusercontent.com/85775989/167429506-8fe0af5a-6f03-4738-bdae-40fd64457056.jpg)
-![profile-edit](https://user-images.githubusercontent.com/85775989/167429510-8717bba9-3aef-403c-9cd8-5dc3ba25e863.jpg)
 
